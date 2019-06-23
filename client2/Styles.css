@@ -1,0 +1,534 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+  font-family: FuturaB;
+  src: url('FuturaBookC.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: FuturaD;
+  src: url('FuturaDemiC.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+#Header {
+    box-shadow: 0 1px 15px 0 rgba(176,176,176,0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border: solid 0px black;
+    z-index:100;
+}
+
+#Want {
+    position: fixed;
+    top: 23px;
+    right: 3%;
+    text-align: center;
+    height: 40px;
+    width: 228px;
+    background-color: #E9C547;
+    border: solid 0px black;
+    font-family: FuturaD;
+    color: #FFF;
+    font-size: 20pt;
+    padding-top: 10px;
+    line-height: 31px;
+    text-align: center;
+}
+Want:active {
+    position: fixed;
+    top: 23px;
+    right: 3%;
+    text-align: center;
+    height: 54px;
+    width: 228px;
+    background-color: #E9C547;
+    border: solid 0px black;
+    font-family: FuturaD;
+    color: #FFF;
+    font-size: 20pt;
+    padding-top: 10px;
+    line-height: 31px;
+    text-align: center;
+}
+Want:visited {
+    position: fixed;
+    top: 23px;
+    right: 3%;
+    text-align: center;
+    height: 54px;
+    width: 228px;
+    background-color: #E9C547;
+    border: solid 0px black;
+    font-family: FuturaD;
+    color: #FFF;
+    font-size: 20pt;
+    padding-top: 10px;
+    line-height: 31px;
+    text-align: center;
+}
+#Want:hover {
+    transition-duration:0.2s;
+    text-decoration: none;
+    box-shadow: 2px 2px 0 0 #023971;
+}
+
+#logo {
+    margin-top: 10px;
+    position: relative;
+    height:80px;
+    left:3%;
+
+}
+
+#tit {
+    position:absolute;
+    width:100%;
+    top:218px;
+    color: #FFF;
+    font-family: FuturaD;
+    font-size: 62px;
+    text-align: center;
+}
+
+#background1 {
+    top:100px;
+    height: 665px;
+  width: 100%;
+  background-color: #5C80BC;
+}
+
+#srch {
+    position: absolute;
+    top: 358px;
+    width: 100%;
+    text-align: center;
+}
+
+#srchInn {
+    position: relative;
+    top: 50px;
+    box-sizing: border-box;
+    height: 68px;
+    margin-left: -250px;
+    width: 50%;
+    background-color: #FDF9F9;
+    border: 2px solid #E9C547;
+    border-right: none;
+    font-family: FuturaB;
+    color: #121629;
+    font-size: 20pt;
+    padding-left: 10px; 
+    line-height: 31px;
+    text-align: left;
+    z-index:10;
+
+}
+
+#subtit {
+        position:absolute;
+    width:100%;
+    top:310px;
+    color: #FFF;
+  font-family: FuturaB;
+  font-size: 32px;
+  text-align: center;
+}
+
+#srchb {
+    position: absolute;
+    width:250px;
+    top:50px;
+    border: solid 0px black;
+    background-image: url(search.png);
+    color: #FFF;
+    font-family: FuturaD;
+    font-size: 32px;
+    line-height: 31px;
+    text-align: center;
+    margin: 0px 0px 0px -4px;
+    padding: 17px 50px 16px 94px;
+    z-index:99;
+    border: 2px solid #E9C547;
+    border-left: none;
+}
+
+#ext {
+    Color:#FDF9F9;
+    position: relative;
+    top: 50px;
+    height: 68px;
+    width: 100%;
+    font-family: FuturaB;
+    font-size: 20pt; 
+    line-height: 31px;
+    text-align: center;
+    z-index:11;
+    text-decoration: underline;
+    border: 0px solid black;
+}
+
+
+
+#mouse {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top:602px;
+    animation: scroll 3s ease-in-out 1s infinite;
+}
+
+@keyframes scroll{
+    from{
+        margin-top:0px;
+    }
+    to{
+        margin-top:0px;
+    }
+    50%{
+        margin-top: -30px;
+    }
+}
+
+#he1 {
+    position:relative;
+    width:100%;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    color: #121629;
+  font-family: FuturaD;
+  font-size: 32px;
+  text-align: center;
+}
+
+
+ #card {
+     padding-bottom: 5px;
+    margin-left: 5%;
+    margin-bottom: 40px;
+    height: 246px;
+    width: 90%;
+    background-color: #FFF;
+    box-shadow: 0 0 16px 0 rgba(8,8,8,0.5);
+        transition-duration:0.1s;
+    
+}
+
+#card:hover {
+        box-shadow: 0 0 16px 0 #E9C547;
+}
+
+
+#score {
+    color: #000;
+    font-family: FuturaD;
+    font-size: 78px;
+}
+
+#passscore {
+    position: relative;
+    vertical-align: middle;
+    width:160px;
+    text-align: end;
+    color: #000;
+    font-family: FuturaD;
+    font-size: 76px;    
+    margin-right:20px;
+        float:right;
+    
+}
+
+
+
+#budgetSub {
+  color: #000;
+  font-family: FuturaB;
+  font-size: 20px;
+  text-align: right;
+}
+
+#universityname {
+    padding-top: 26px;
+    margin-left: 30px;
+  height: 38px;
+  width: 687px;
+  color: #121629;
+  font-family: FuturaB;
+  font-size: 24px;
+  line-height: 36px;  
+}
+
+#specname {
+    height: 67px;
+    width: 700px;
+    color: #023971;
+    font-family: FuturaD;
+    font-size: 38px;
+    line-height: 36px;
+    padding-top: 26px;
+    margin-left: 30px;
+}
+
+#eduLengh {
+    height: 33px;
+    width: 587px;
+    color: #000;
+    font-family: FuturaB;
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 30px;
+}
+
+
+
+#eduldisc {
+font-weight:800;
+    display: inline;
+}
+
+#eduLenght {
+    margin-top:10px;
+  height: 33px;
+  color: #000;
+  font-family: FuturaB;
+  font-size: 20px;
+  line-height: 20px;
+    margin-left: 30px;
+display: inline-block;
+}
+
+#eduForm {
+    margin-top:6px;
+      height: 33px;
+  color: #000;
+  font-family: FuturaB;
+  font-size: 20px;
+  line-height: 20px;
+    margin-left: 30px;
+display: inline-block;
+}
+
+#edufdisc {
+    font-weight:800;
+    display: inline;
+}
+
+#leftside {
+    display: block;
+    float:left;
+    width:600px;
+}
+
+#rightside {
+    margin-top: 40px;
+        position: relative;
+    vertical-align: middle;
+    display: block;
+    width: 400px;
+    float: right;
+}
+
+#passscoredisc {
+  height: 34px;
+  width: 169px;
+  color: #000;
+  font-family: FuturaB;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+
+}
+
+#budget {
+        position: relative;
+    vertical-align: middle;
+    width:160px;
+    text-align: end;
+    color: #000;
+    font-family: FuturaD;
+    font-size: 76px;    
+    margin-right:50px;
+        float:right;
+
+}
+
+#budgetdisc {
+      height: 34px;
+  width: 169px;
+  color: #000;
+  font-family: FuturaB;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+    margin-left: 30px;
+
+}
+
+#back {
+        position: absolute;
+        Color:#121629;
+    left:60px;
+    top: 120px;
+    font-family: FuturaB;
+    font-size: 20pt; 
+    line-height: 31px;
+    text-align: center;
+    z-index:11;
+    text-decoration: underline;
+}
+
+.title {
+    position: absolute;
+    left:30px;
+    top: 160px;
+    float: left;
+}
+
+#rate {
+top: 500;
+  color: #121629;
+  font-family: FuturaB;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+#text1 {
+    display: block;
+    position: absolute;
+    top:260px;
+    left:60px;
+  height: 286px;
+  width: 657px;
+  color: #484848;
+  font-family: FuturaB;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#text2 {
+     display: block;
+    position: absolute;
+    top:560px;
+    left:60px;
+
+  height: 179px;
+  width: 656px;
+  color: #333;
+  font-family: FuturaB;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+#left {
+    Float:left;
+}
+
+#uni {
+  width: 363px;
+}
+
+#right {
+    display: block;
+    position: absolute;
+    top:260px;
+    right:60px;
+  color: #484848;
+  font-family: FuturaB;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#special {
+    width: 100%;
+    position: absolute;
+    top:750px;
+}
+
+.title2 {
+  height: 79px;
+  width: 100%;
+  color: #121629;
+  font-family: FuturaD;
+  font-size: 38px;
+  line-height: 37px;
+  text-align: center;
+}
+.title3 {
+    position: relative;
+    top:820px;
+  height: 79px;
+  width: 100%;
+  color: #121629;
+  font-family: FuturaD;
+  font-size: 38px;
+  line-height: 37px;
+  text-align: center;
+}
+
+#bl {
+    top:0;
+    height:860px;
+  width: 100%;
+}
+
+.card {
+    position: relative;
+    top:820px;
+}
+
+#contactTit {
+    position: relative;
+  color: #333;
+  font-family: FuturaB;
+  font-size: 28px;
+  line-height: 28px;
+}
+#contactTit2 {
+    
+    position: relative;
+  color: #333;
+  font-family: FuturaB;
+  font-size: 28px;
+  line-height: 28px;
+}
+
+#contact_left {
+    position: relative; 
+    width: 45%;
+    float: left;
+  color: #333;
+  font-family: FuturaB;
+  font-size: 28px;
+  line-height: 28px;
+margin-top: 800px;
+margin-left:5%;
+}
+
+#contact_right {
+    position: relative; 
+    width: 45%;
+    float: right;
+  color: #333;
+  font-family: FuturaB;
+  font-size: 28px;
+  line-height: 28px;
+margin-top: 800px;
+}
+
+
+.kk {
+    height:
+    text-decoration: none;
+    padding-bottom: -10px;
+}

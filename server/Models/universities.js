@@ -1,7 +1,8 @@
 const db = require('../mysql.js');
 
 exports.all = (cb) => {
-  // const sql = `SELECT * FROM universities as t1
+  // const sql = `SELECT t1.*, t2.*, t3.name as specialty_name, t3.directions, t3.faculty, t3.tags, t4.name as study_name
+  //               FROM universities as t1
   //               INNER JOIN universities_specialty as t2 ON t1.id = t2.universities_id
   //               INNER JOIN specialty as t3 ON t3.id = t2.specialty_id
   //               INNER JOIN study_form as t4 ON t4.specialty_id = t3.id
